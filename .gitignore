@@ -1,0 +1,102 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# Rider projects
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono auto-generated files
+mono_crash.*
+
+# VS Code files
+.vscode/
+
+# Visual Studio specific
+.vs/
+*.vscode/
+
+# Logs
+*.log
+
+# Debug and Release configurations
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Package directories
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+
+# Tools directories
+*.psess
+*.vspx
+*.vsmacros
+*.vsmdi
+*.vsp
+
+# Azure Web App
+*.azure*
+
+# User secrets (managed by .NET user-secrets tool)
+secrets.json
+*.dotnetuser.secrets/
+
+# Resharper
+_ReSharper*
+*.DotSettings.user
+
+# File containing sensitive information
+appsettings.Development.json
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+*.old
+~$*
+
+# Generated code
+*.g.i.cs
+*.g.cs
+*_i.c
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+.coveragexml
+
+# Yarn and Node.js (if using in the project)
+node_modules/
+
+# IDE-specific folders
+*.sln.ide
+*.sln.ide-shm
+*.sln.ide-wal
+*.code-workspace
+
+# If using JetBrains Rider:
+.idea/
+*.sln.iml
+
+# If using a database like SQLite
+*.sqlite
+*.sqlite3
+
+# If using a container for dependencies like Docker
+docker-compose.override.yml
+
